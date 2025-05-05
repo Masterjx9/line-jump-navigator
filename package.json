@@ -1,0 +1,68 @@
+{
+  "publisher": "masterjx9",
+  "name": "breakpoint-navigator",
+  "displayName": "Breakpoint Line Jump navigator",
+  "description": "navigate between breakpoints/jumppoints using keyboard shortcuts",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+  "commands": [
+    {
+      "command": "jumpPoints.mark",
+      "title": "Mark Jump Point"
+    },
+    {
+      "command": "jumpPoints.next",
+      "title": "Next Jump Point"
+    },
+    {
+      "command": "jumpPoints.prev",
+      "title": "Previous Jump Point"
+    }
+  ],
+  "keybindings": [
+    {
+      "command": "jumpPoints.mark",
+      "key": "ctrl+alt+m",
+      "when": "editorTextFocus"
+    },
+    {
+      "command": "jumpPoints.next",
+      "key": "ctrl+alt+right",
+      "when": "editorTextFocus"
+    },
+    {
+      "command": "jumpPoints.prev",
+      "key": "ctrl+alt+left",
+      "when": "editorTextFocus"
+    }
+  ]
+}
+,
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
