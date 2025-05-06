@@ -4,6 +4,11 @@
   "displayName": "Breakpoint Line Jump navigator",
   "description": "navigate between breakpoints/jumppoints using keyboard shortcuts",
   "version": "0.0.1",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Masterjx9/line-jump-navigator.git"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
