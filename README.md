@@ -22,14 +22,15 @@ This extension contributes the following keybindings (customizable in Keyboard S
 
 ## 📦 Release Notes
 
-### 1.0.0
-
+### 0.0.1 (2025-5-04)
 - Initial release with core functionality:
   - Add/remove per-line jump points
   - Gutter icon decoration
   - File-local jump navigation
   - Persistent decorations across tab switches
 
+### 0.0.2 (2025-5-05)
+- Added logo to the README
 ---
 
 ## 💡 Contributing

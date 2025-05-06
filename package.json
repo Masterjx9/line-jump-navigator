@@ -3,8 +3,8 @@
   "name": "breakpoint-navigator",
   "displayName": "Breakpoint Line Jump navigator",
   "description": "navigate between breakpoints/jumppoints using keyboard shortcuts",
-  "version": "0.0.1",
-  "icon": "media/icon.png",
+  "version": "0.0.2",
+  "icon": "./media/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Masterjx9/line-jump-navigator.git"
