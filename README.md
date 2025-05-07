@@ -35,7 +35,7 @@ This extension contributes the following keybindings (customizable in Keyboard S
 
 ## 💡 Contributing
 
-Feature ideas, issues, or PRs are welcome — submit them via the [GitHub repo](https://github.com/line-jump-navigator).
+Feature ideas, issues, or PRs are welcome — submit them via the [GitHub repo](https://github.com/masterx9/line-jump-navigator).
 
 ---
 
